@@ -10,7 +10,7 @@
 
 （3）分类与边界回归
 
-![RCNN流程图](.\img\RCNN流程图.png)
+![RCNN流程图](img/RCNN流程图.png)
 
 
 
@@ -40,7 +40,7 @@ RCNN中使用SVM作为分类器，为每一种需要识别的物体训练一个�
 
 selective search 算法原理图如下：
 
-![selective-search](.\img\selective-search.png)
+![selective-search](img/selective-search.png)
 
 step0：生成区域集R，具体参见论文[《Efficient Graph-Based Image Segmentation》](http://blog.csdn.net/guoyunfei20/article/details/78727972)
 
