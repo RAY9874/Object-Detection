@@ -12,7 +12,7 @@ faster rcnn 在fastrcnn的基础上叕做了优化，速度、准确率均有提
 
 4) 分类和回归
 
-![faster-rcnn](img/faster-rcnn.jpg)
+![faster-rcnn](https://github.com/RAY9874/Object-Detection/blob/master/Faster-RCNN/img/faster-rcnn.jpg)
 
 ## （1） Conv layers提取特征图
 
@@ -34,7 +34,7 @@ faster rcnn 在fastrcnn的基础上叕做了优化，速度、准确率均有提
 
 有人说rpn其实是“ 基于滑窗的无类别obejct检测器”,9种anchors在原图上的示意图如图所示（每种anchor只显示了1个）
 
-![anchors](img/anchors.jpg)
+![anchors](https://github.com/RAY9874/Object-Detection/blob/master/Faster-RCNN/img/anchors.jpg)
 
 在最后一张特征图上的每一个点，其实在原图中都是一块很大的区域（上图中的大区域），在这个区域内可能有目标，为了能更能逼近目标，我们需要3种尺度，和3种形状。3X3=9，就是图中的那9种物体框。假设原图中有一个物体，那我们通过在原图上平移黑框，就总能找到一个颜色框能正好把物体框在里面，而且尺度啊形状最接近。
 
