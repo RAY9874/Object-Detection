@@ -62,4 +62,4 @@ faster rcnn 在fastrcnn的基础上叕做了优化，速度、准确率均有提
 
 ## （4） 分类和回归
 
-与fast-rcnn相同
+与fast-rcnn相同, 同时，回归任务又在头部这里进行了一次，显然是不太放心RPN
